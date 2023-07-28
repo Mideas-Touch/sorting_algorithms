@@ -27,12 +27,14 @@ void swap(int *a, int *b);
 int partition(int *array, int low, int high, size_t size);
 void quick_sort_rec(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
-void cocktail_sort_list(listint_t **list);
+void cocktail_sort_list(listint_t **listi);
 void swapem(listint_t *l, listint_t *r, listint_t **h);
 void counting_sort(int *array, size_t size);
 int get_max(int *array, int size);
 int findmax(int *array, size_t size);
 int count(int *array, size_t size, int val);
 void counting_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
 
 #endif
